@@ -1,5 +1,5 @@
 # CLASP
-Implementation of this code can be see at: 
+Implementation of this code can be see at: Lee, T., & Wang, Y. (2023). CLASP: CLustering of Atmospheric Satellite Products and its applications in feature detection of atmospheric trace gases. Journal of Geophysical Research: Atmospheres, 128, e2023JD038887. https://doi.org/10.1029/2023JD038887
 
 Citation of code: DOI 10.5281/zenodo.7709613
 
