@@ -182,6 +182,7 @@ def GetSpatialClusters(points2,sp_res):
     return points2_labels, unique_labels, n_clusters_
 
 #Check if Source Points are removed & Make necessary alterations to the data
+##########################This is old 
 def RemoveSourcePointClusters(points2_labels,source,unique_labels):    
     Source_Clus = np.empty(shape=(0,6))
     NoSource_Clus = np.empty(shape=(0,6))
