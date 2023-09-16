@@ -168,6 +168,7 @@ def CLASP(LatMax, LatMin, LonMax, LonMin, O, sp_res, maginflu, source, eps_scale
             continue
         
         #12) Remove clusters that have a source point inside the cluster
+        ##########################This is old 
         data_new = RemoveSourcePointClusters(points2_labels,source,unique_labels)
         
         #10) Add Histogram Bin number to the points to track the column density variations
@@ -230,6 +231,7 @@ def CLASP(LatMax, LatMin, LonMax, LonMin, O, sp_res, maginflu, source, eps_scale
     data_temporal = np.hstack((CC_points_c_2,data_good_data))
     
     #Remove Source Point Infulences - Again - Just to make sure
+    ##########################This is old 
     #20bb) Get Spatial Clusters with Temproal Points to find the spatial location of the temporal clusters
     pointsT_labels, unique_labelsT = GetSpatialClusters_Temporal(data_temporal,sp_res)
     
